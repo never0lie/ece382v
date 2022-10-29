@@ -1,0 +1,55 @@
+Buildfile: /home/shared/ece382v/jpf-symbc/build.xml
+
+clean:
+   [delete] Deleting directory /home/shared/ece382v/jpf-symbc/build
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /home/shared/ece382v/jpf-symbc/build.xml
+
+-init:
+    [mkdir] Created dir: /home/shared/ece382v/jpf-symbc/build
+
+-compile-annotations:
+    [mkdir] Created dir: /home/shared/ece382v/jpf-symbc/build/annotations
+    [javac] Compiling 4 source files to /home/shared/ece382v/jpf-symbc/build/annotations
+
+-compile-main:
+    [mkdir] Created dir: /home/shared/ece382v/jpf-symbc/build/main
+    [javac] Compiling 312 source files to /home/shared/ece382v/jpf-symbc/build/main
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+-compile-peers:
+    [mkdir] Created dir: /home/shared/ece382v/jpf-symbc/build/peers
+    [javac] Compiling 5 source files to /home/shared/ece382v/jpf-symbc/build/peers
+
+-compile-classes:
+    [mkdir] Created dir: /home/shared/ece382v/jpf-symbc/build/classes
+    [javac] Compiling 7 source files to /home/shared/ece382v/jpf-symbc/build/classes
+
+-compile-tests:
+    [mkdir] Created dir: /home/shared/ece382v/jpf-symbc/build/tests
+    [javac] Compiling 197 source files to /home/shared/ece382v/jpf-symbc/build/tests
+
+-compile-examples:
+    [mkdir] Created dir: /home/shared/ece382v/jpf-symbc/build/examples
+    [javac] Compiling 202 source files to /home/shared/ece382v/jpf-symbc/build/examples
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+compile:
+
+-jar-jvm:
+      [jar] Building jar: /home/shared/ece382v/jpf-symbc/build/jpf-symbc.jar
+
+-jar-jpf:
+      [jar] Building jar: /home/shared/ece382v/jpf-symbc/build/jpf-symbc-classes.jar
+
+-jar-annotations:
+      [jar] Building jar: /home/shared/ece382v/jpf-symbc/build/jpf-symbc-annotations.jar
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 9 seconds
