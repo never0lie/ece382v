@@ -33,8 +33,8 @@ public class RunnerShadow_JPF {
 //                SymExParameter_JPF.Rational_simplify,
 //                SymExParameter_JPF.WBS_update,
 //                SymExParameter_JPF.WBS_launch,
-//                SymExParameter_JPF.Add,
-                // SymExParameter_JPF.GetSign
+               SymExParameter_JPF.Add,
+                SymExParameter_JPF.GetSign,
                 SymExParameter_JPF.LoopMul2
         };
 
