@@ -1,0 +1,43 @@
+Buildfile: /home/shared/jpf-shadow-plus/jpf-shadow/build.xml
+
+clean:
+   [delete] Deleting directory /home/shared/jpf-shadow-plus/jpf-shadow/build
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /home/shared/jpf-shadow-plus/jpf-shadow/build.xml
+
+-init:
+    [mkdir] Created dir: /home/shared/jpf-shadow-plus/jpf-shadow/build
+
+-compile-annotations:
+
+-compile-main:
+    [mkdir] Created dir: /home/shared/jpf-shadow-plus/jpf-shadow/build/main
+    [javac] Compiling 71 source files to /home/shared/jpf-shadow-plus/jpf-shadow/build/main
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+-compile-peers:
+
+-compile-classes:
+
+-compile-tests:
+
+-compile-examples:
+    [mkdir] Created dir: /home/shared/jpf-shadow-plus/jpf-shadow/build/examples
+    [javac] Compiling 84 source files to /home/shared/jpf-shadow-plus/jpf-shadow/build/examples
+
+compile:
+
+-jar-jvm:
+      [jar] Building jar: /home/shared/jpf-shadow-plus/jpf-shadow/build/jpf-shadow.jar
+
+-jar-jpf:
+
+-jar-annotations:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
